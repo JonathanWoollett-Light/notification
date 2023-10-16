@@ -1,0 +1,9 @@
+[package]
+name = "notification"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+nix = { git = "https://github.com/JonathanWoollett-Light/nix", rev = "64045bee565862228a5e17f77bc3a82c62b7e7df", features = ["fs","process","mman","futex"]}
